@@ -13,10 +13,10 @@ using MySql.Data.MySqlClient;
 string server = "127.0.0.1";
 string database = "rv4_saf1";
 string username = "root";
-string password = "";
+//string password = "";
 string port = "3306";
 
-string connectionString = $"Server={server};Database={database};Uid={username};Pwd={password};Port={port};SslMode=None";
+string connectionString = $"Server={server};Database={database};User ID=root;Password=;Port={port};SslMode=None";
 
 MySqlConnection connection = new MySqlConnection(connectionString);
 
