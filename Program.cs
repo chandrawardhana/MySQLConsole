@@ -15,8 +15,6 @@ string database = "rv4_saf1";
 string username = "root";
 string password = "";
 string port = "3306";
-string DataType = "mysql";
-string Setting = "";
 
 string connectionString = $"Server={server};Database={database};Uid={username};Pwd={password};Port={port}";
 
