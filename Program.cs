@@ -13,7 +13,7 @@ namespace MySQLTESTCON
     {
         static void Main()
         {
-            string server = "127.0.0.1";
+            string server = "192.168.103.231";
             string database = "rv4_saf1";
             string username = "root";
             string password = "";
