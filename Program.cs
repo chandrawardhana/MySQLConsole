@@ -33,7 +33,7 @@ namespace MySQLTESTCON
                 Console.WriteLine($"User Privilege:{username}");
                 Console.WriteLine($"=============================================");
 
-                // Additional database-related operations can be performed here
+             
 
             }
             catch (Exception ex)
