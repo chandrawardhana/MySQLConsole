@@ -16,7 +16,7 @@ string username = "root";
 string password = "";
 string port = "3306";
 
-string connectionString = $"Server={server};Database={database};Uid={username};Pwd={password};Port={port}";
+string connectionString = $"Server={server};Database={database};Uid={username};Pwd={password};Port={port};SslMode=None";
 
 MySqlConnection connection = new MySqlConnection(connectionString);
 
